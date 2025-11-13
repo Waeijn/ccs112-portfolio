@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm fixed-top">
       <div className="container">
         <Link className="navbar-brand fw-bold" to="/">
-          Jane Doe Portfolio
+          John Wayne S. Landong
         </Link>
         
         <button
@@ -36,7 +36,12 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/skills">
-                Skills
+                Expertise
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/contact">
+                Contact
               </Link>
             </li>
           </ul>

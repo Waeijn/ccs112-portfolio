@@ -4,35 +4,38 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const Skills = () => {
   const skillCategories = [
     {
-      category: "Frontend Development",
+      category: "Programming Languages",
       skills: [
-        { name: "React", level: 90 },
-        { name: "JavaScript (ES6+)", level: 95 },
-        { name: "HTML/CSS (Bootstrap)", level: 85 },
+        { name: "Java", level: 85 },
+        { name: "Python", level: 80 },
+        { name: "JavaScript", level: 90 },
+        { name: "PHP", level: 75 },
+        { name: "GDScript", level: 60 },
       ],
     },
     {
-      category: "Backend Development",
+      category: "Web & Database Management",
       skills: [
-        { name: "Node.js / Express", level: 80 },
-        { name: "Python / Flask", level: 75 },
-        { name: "REST APIs", level: 90 },
+        { name: "HTML / CSS / Bootstrap", level: 95 },
+        { name: "Laravel (PHP Framework)", level: 70 },
+        { name: "React (Frontend Library)", level: 85 },
+        { name: "MySQLi (Database)", level: 80 },
       ],
     },
     {
-      category: "Databases & DevOps",
+      category: "Game Development & Cybersecurity",
       skills: [
-        { name: "MongoDB", level: 70 },
-        { name: "SQL (PostgreSQL)", level: 65 },
-        { name: "Git & GitHub", level: 95 },
+        { name: "Godot Engine / GameMaker", level: 70 },
+        { name: "Networking (Cisco)", level: 75 },
+        { name: "General Cybersecurity", level: 80 },
       ],
     },
   ];
 
   return (
-    <div className="container mt-5">
-      <h1 className="display-4 mb-4 text-center">Technical Skills</h1>
-      <p className="lead text-center mb-5 text-muted">Technologies and tools I work with.</p>
+    <div className="container mt-5 pt-5">
+      <h1 className="display-4 mb-4 text-center">My Core Expertise</h1>
+      <p className="lead text-center mb-5 text-muted">Based on my technical proficiency in programming, web development, and security.</p>
 
       <div className="row justify-content-center">
         {skillCategories.map((categoryData) => (
